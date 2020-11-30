@@ -13,23 +13,3 @@
  *= require_tree .
  *= require_self
  */
- .page-header {
-  display: flex;
-}
-
-h1,
-.nav {
-  flex: 1;
-}
-h1{
-  vertical-align: top;
-}
-.Logo{
-  max-width: 80px;
-  max-height: 80px;
-}
-.nav {
-  margin: 1em;
-  text-align: right;
-  vertical-align: middle;
-}
