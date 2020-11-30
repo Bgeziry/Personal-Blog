@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :articles
   root "pages#welcome"
   # this line means that we have a controller named pages and the method inside it welcome is a page
   get "about" => "pages#about"
